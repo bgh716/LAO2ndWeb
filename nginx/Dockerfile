@@ -1,7 +1,7 @@
 FROM nginx
 
-RUN rm /etc/nginx/sites-available/default
-COPY default /etc/nginx/sites-available/default
+RUN rm /etc/nginx/conf.d/default.conf
+COPY default.conf /etc/nginx/conf.d/default.conf
 
 CMD ["nginx", "-g", "daemon off;"]
 
