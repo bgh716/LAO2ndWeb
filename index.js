@@ -1,13 +1,13 @@
-var express = require('express');
+var express = require('express')
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 80
 
-var app = express();
+var app = express()
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
 app.listen(PORT, () => {
-  console.log('서버가 http://34.125.169.162:' + PORT + '에서 작동하고 있습니다.');
+  console.log('서버가 http://34.125.169.162:' + PORT + '에서 작동하고 있습니다.')
 })
