@@ -1,0 +1,22 @@
+{
+  "name": "lao2ndweb",
+  "version": "1.0.0",
+  "description": "LAO2nd project web codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgh716/LAO2ndWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgh716/LAO2ndWeb/issues"
+  },
+  "homepage": "https://github.com/bgh716/LAO2ndWeb#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
