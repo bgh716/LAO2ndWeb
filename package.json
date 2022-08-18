@@ -18,6 +18,8 @@
   "homepage": "https://github.com/bgh716/LAO2ndWeb#readme",
   "dependencies": {
     "create-react-app": "^5.0.1",
-    "express": "^4.18.1"
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2"
   }
 }
