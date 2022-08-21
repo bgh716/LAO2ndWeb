@@ -2,7 +2,7 @@ FROM node
 WORKDIR /app
 
 COPY lao-react ./
-WORKDIR /lao-react
+WORKDIR ./lao-react
 RUN npm install
 RUN npm run build
 
