@@ -1,0 +1,18 @@
+.Hcontainer {
+  background-color: #000000;
+  display: flex;
+  border: 1px solid #FFFFFF;
+  height: 50px;
+  color: #FFFFFF;
+  padding-bottom: 30px
+}
+
+.title1{
+  width:275px;
+  text-align: center;
+}
+
+.title2{
+  width:300px;
+  text-align: center;
+}
