@@ -144,9 +144,9 @@ const Maris = mongoose.model('Maris', maris);
 
 const infoFile = fs.readFileSync('temp/iteminfo.json', 'utf8');
 const infoObj = JSON.parse(infoFile);
-
+app.use(express.static(path.join(__dirname, 'lao-react/build')));
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.sendFile(path.join(__dirname, '/lao-react/build/index.html'));
 })
 
 app.get('/shop', (req, res) => {
