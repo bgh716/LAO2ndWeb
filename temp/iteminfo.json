@@ -151,14 +151,14 @@
 	},
 	"i26": {
 		"name": "Honor Shard Pouch (L)",
-		"quantity": 0,
-		"cprice": 0,
+		"quantity": 20,
+		"cprice": 291,
 		"bundle": 1
 	},
 	"i27": {
 		"name": "Solar Protection",
-		"quantity": 8,
-		"cprice": 360,
+		"quantity": 25,
+		"cprice": 750,
 		"bundle": 1
 	}
 }

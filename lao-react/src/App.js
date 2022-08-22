@@ -24,8 +24,6 @@ function App() {
     getData();
   }, []);
 
-  console.log(res)
-
   if (res){
     const list = items_id.map((v) => (<Table key={v} id={v} name={res.data[v]["name"]} gPrice={res.data[v]["price"]} cPrice={res.info[v]["cprice"]} quantity={res.info[v]["quantity"]} crystal={res.data["crystal"]} bundle={res.info[v]["bundle"]} />))
     return(
