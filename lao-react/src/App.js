@@ -12,7 +12,7 @@ function App() {
   //axios promise function
   const [res, setRes] = useState(null);
   function getData(){
-    axios.get("http://http://34.125.169.162:5000/shop")
+    axios.get("http://34.125.169.162:5000/shop")
       .then(function (response) {
         setRes(response.data)
       }).catch(function (error) {
