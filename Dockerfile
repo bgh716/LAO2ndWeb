@@ -1,7 +1,7 @@
 FROM node
 WORKDIR /app
 
-COPY lao-react ./
+COPY lao-react/package*.json ./
 WORKDIR ./lao-react
 RUN npm install
 RUN npm run build
